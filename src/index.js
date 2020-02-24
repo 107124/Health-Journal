@@ -7,6 +7,7 @@ import Home from "./pages/home";
 import UpdateTrack from "./pages/updateTrack";
 import Journal from "./components/journal";
 import Login from "./pages/login";
+import Footer from "./components/footer";
 
 import "./styles.css";
 
@@ -46,6 +47,7 @@ function App(props) {
           </Switch>
         </div>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

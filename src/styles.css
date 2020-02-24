@@ -397,3 +397,11 @@ form {
   transition: 0.2s ease-in-out;
   text-decoration: none;
 }
+
+/* footer */
+
+.footer-container {
+  color: #973ba1;
+  font-size: 12px;
+  margin: 100px;
+}
